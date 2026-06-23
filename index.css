@@ -1,21 +1,23 @@
-#calculator{
-    border: 2px solid rgb(150, 142, 142);
-    border-radius: 5px;
-    width: 200px;
-    height: 350px;
+#calculator {
+  border: 1px solid rgb(187, 183, 183);
+  border-radius: 5px;
+  width: 200px;
 }
-#display{
-    margin: 10px;
-    width: 85%;
-    height: 30px;
+
+#display {
+  margin: 10px;
+  width: 85%;
+  font-size: 25px;
 }
-.buttonclass{
-    width: 50px;
-    height: 40px;
-    margin: 3px;
-    
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.buttoncontainer{
-    display: flex;
-    justify-content: center;
+
+.button {
+  width: 45px;
+  height: 45px;
+  margin: 3px;
 }
